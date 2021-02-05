@@ -4,6 +4,23 @@
     <Identifier>ICD</Identifier>
     <Agency>The International Organization for Standardization (ISO)</Agency>
     <Code>
+        <Id>0160</Id>
+        <Name>GTIN - Global Trade Item Number</Name>
+        <Description>e EAN.UCC.GTIN is a globally unique identifier of trade items. A trade item is
+            any item (product or service) upon which there is a need to retrieve pre-defined
+            information and that may be priced, ordered or invoiced at any point in any supply chain
+            The GTIN identification scheme is currently (2002) used by more than 900,000
+            organizations in the world. It is widely in the consumer goods and other industries to
+            identify items and packages. The GTIN can be represented in a standard bar code format.
+            Issuing agency: EAN Inernational, Rue Royal 145, B-1000 Brussels, Tel: + 32 2 227 1020,
+            Fax: +32 2 227 1021, e.mail: info@ean-int.org, Contact: Henri Barthel</Description>
+    </Code>	
+	<Code>
+        <Id>0209</Id>
+        <Name>GS1 identification keys</Name>
+        <Description>GS1 identification keys and key qualifiers may be used by an information system to refer unambiguously to an entity such as a trade item, logistics unit, physical location, document, or service relationship.</Description>
+    </Code>	
+    <Code>
         <Id>0002</Id>
         <Name>System Information et Repertoire des Entreprise et des Etablissements: SIRENE</Name>
         <Description>The Sirene number is used in France mainly for the official registration in the
@@ -1255,18 +1272,6 @@
             2002)</Description>
     </Code>
     <Code>
-        <Id>0160</Id>
-        <Name>GTIN - Global Trade Item Number</Name>
-        <Description>e EAN.UCC.GTIN is a globally unique identifier of trade items. A trade item is
-            any item (product or service) upon which there is a need to retrieve pre-defined
-            information and that may be priced, ordered or invoiced at any point in any supply chain
-            The GTIN identification scheme is currently (2002) used by more than 900,000
-            organizations in the world. It is widely in the consumer goods and other industries to
-            identify items and packages. The GTIN can be represented in a standard bar code format.
-            Issuing agency: EAN Inernational, Rue Royal 145, B-1000 Brussels, Tel: + 32 2 227 1020,
-            Fax: +32 2 227 1021, e.mail: info@ean-int.org, Contact: Henri Barthel</Description>
-    </Code>
-    <Code>
         <Id>0161</Id>
         <Name>ECCMA Open Technical Directory</Name>
         <Description>centralized dictionary of names and definitions of trading concepts,
@@ -1672,10 +1677,5 @@
         <Id>0208</Id>
         <Name>Numero d'entreprise / ondernemingsnummer / Unternehmensnummer</Name>
         <Description>Identification number attributed by the BCE/KBO/ZDU (the Belgian register) to identify entities and establishment units operating in Belgium.</Description>
-    </Code>
-	<Code>
-        <Id>0209</Id>
-        <Name>GS1 identification keys</Name>
-        <Description>GS1 identification keys and key qualifiers may be used by an information system to refer unambiguously to an entity such as a trade item, logistics unit, physical location, document, or service relationship.</Description>
     </Code>
 </CodeList>
